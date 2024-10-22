@@ -32,7 +32,8 @@ public class General {
     public boolean validarDatos() {
         return  true;
     }
-
+    
+    @Override
     public  String toString() {
         return "General {" + "Codigo = " + codigo + "Nombre = " + nombre + '}'; 
 
